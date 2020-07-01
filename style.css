@@ -1,0 +1,208 @@
+.section-1 {
+  background-image: url(images/header-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-width: 1536px;
+  min-height: 755px;
+  display: flex;
+  justify-content: space-around;
+}
+.box-1 {
+  margin: 220px -50px 200px 250px;
+  min-width: 400px;
+  height: 300px;
+  padding-left: 100px;
+  /* border: 1px solid; */
+}
+.box-2 img {
+  margin: 20px 0px 0px 100px;
+  max-width: 85%;
+  /* border: 1px solid ; */
+  padding: 0px;
+}
+.section-2 {
+  background-image: url(images/latest-work-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-width: 1536px;
+  min-height: 755px;
+  display: flex;
+  justify-content: space-between;
+}
+.section-3 {
+  background-image: url(images/biography-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-width: 1536px;
+  min-height: 755px;
+}
+.section-4 {
+  background-image: url(images/biography-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-width: 1536px;
+  min-height: 755px;
+}
+.section-5 {
+  background-image: url(images/footer-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-width: 1536px;
+  min-height: 755px;
+  text-align: center;
+}
+h1 {
+  font-size: 30px;
+  font-weight: 700;
+  margin: 10px 0px 20px 0px;
+}
+p {
+  font-size: 25px;
+  margin-top: 10px;
+}
+.button {
+  display: inline-block;
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+  background-image: linear-gradient(45deg, #ec4f91, tomato);
+  margin-top: 30px;
+  padding: 15px 25px;
+  border-radius: 5px;
+}
+
+.box-3 img {
+  margin: 50px 20px 0px 150px;
+  max-width: 220%;
+}
+
+h1 {
+  font-family: "Righteous", cursive;
+  color: rgba(0, 0, 0, 0.548);
+}
+p,
+h4 {
+  color: rgba(0, 0, 0, 0.616);
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  line-height: 1.3;
+}
+h4 {
+  font-size: 22px;
+  font-weight: 500;
+}
+.box-1 h1:nth-child(2) {
+  color: tomato;
+  font-family: "Lobster", cursive;
+  font-weight: 400;
+  font-size: 60px;
+}
+.box-4 {
+  margin: 300px 0px 0px 500px;
+  padding-right: 200px;
+  padding-left: 100px;
+}
+h3 {
+  font-size: 35px;
+  font-weight: 700;
+  text-align: center;
+  padding: 150px;
+  font-family: "Righteous", cursive;
+  color: rgba(0, 0, 0, 0.548);
+}
+.flex-items {
+  display: flex;
+  justify-content: space-around;
+  margin: 0px 50px;
+}
+.item1 {
+  background-image: url(images/latest-work/work-1.png);
+  height: 250px;
+  min-width: 400px;
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+  box-shadow: 10px 10px 40px grey;
+}
+.item2 {
+  background-image: url(images/latest-work/work-2.jpg);
+  height: 250px;
+  min-width: 400px;
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+  box-shadow: 10px 10px 40px grey;
+}
+.item3 {
+  background-image: url(images/latest-work/work-3.jpg);
+  height: 250px;
+  min-width: 400px;
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+  box-shadow: 10px 10px 40px grey;
+}
+.skill-item1 {
+  background-image: url(images/html-5.jpg);
+  height: 250px;
+  min-width: 400px;
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+  margin-right: -300px;
+  box-shadow: 10px 10px 40px grey;
+}
+.skill-item2 {
+  background-image: url(images/css-3.jpg);
+  height: 250px;
+  min-width: 400px;
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+  margin-left: -150px;
+  box-shadow: 10px 10px 40px grey;
+}
+.client-1 {
+  max-width: 500px;
+  margin: -160px auto;
+}
+.client-1 h3 {
+  font-size: 25px;
+}
+.client-1 h4 {
+  margin-top: -130px;
+}
+.client-1 h5 {
+  color: gray;
+  padding-top: 5px;
+}
+.client-1 p {
+  font-size: 20px;
+  padding: 0px 80px;
+}
+.leave-msg {
+  background-image: linear-gradient(45deg, #ec4f91, tomato);
+  max-width: 700px;
+  margin: 250px auto;
+  color: white;
+  font-size: 30px;
+  padding: 30px;
+  border-radius: 10px;
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  line-height: 1.3;
+}
+.leave-msg a {
+  display: block;
+  text-decoration: none;
+  color: white;
+  margin-top: 20px;
+  font-size: 25px;
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  line-height: 1.3;
+}
+footer {
+  min-width: 500px;
+  text-align: center;
+  color: gray;
+  padding: 50px;
+  margin-top: -80px;
+}
