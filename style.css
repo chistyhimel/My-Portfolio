@@ -15,8 +15,8 @@
   /* border: 1px solid; */
 }
 .box-2 img {
-  margin: 20px 0px 0px 100px;
-  max-width: 85%;
+  margin: 100px 0px 0px 100px;
+  max-width: 60%;
   /* border: 1px solid ; */
   padding: 0px;
 }
@@ -72,8 +72,8 @@ p {
 }
 
 .box-3 img {
-  margin: 50px 20px 0px 150px;
-  max-width: 220%;
+  margin: 100px 20px 0px 150px;
+  max-width: 180%;
 }
 
 h1 {
